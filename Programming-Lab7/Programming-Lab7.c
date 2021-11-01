@@ -36,6 +36,8 @@ int main()
 
 	printf("Number of pairs of neighbour positive numbers: %d", pair_count);
 
+	free(a);
+
 	getch();
 	return 0;
 }
